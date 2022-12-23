@@ -58,4 +58,17 @@
 10. rm a.txt
 11. git status
 12. git add . : 삭제된 파일은 제외하고 starting area 영역으로 등록
-13.
+13. echo *.log > .gitignore
+14. git status
+15. echo add >> c.txt
+16. git status
+17. git diff
+18. cat c.txt
+19. git diff --staged
+    1.  변경 사항이 많을 경우 : "q"를 입력하면 내용 확인에서 바로 빠져나옴
+20. git diff --cached
+21. git commit
+22. git log
+23. git commit -m "second commit"
+24. git commit -am "third commit" : working directory and starting 모든 파일 commited
+25. 

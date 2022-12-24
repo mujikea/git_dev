@@ -71,4 +71,6 @@
 22. git log
 23. git commit -m "second commit"
 24. git commit -am "third commit" : working directory and starting 모든 파일 commited
-25. 
+25. git remote add origin https://github.com/mujikea/git_dev.git
+26. git push -u origin master
+27. 

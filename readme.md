@@ -47,30 +47,32 @@
   * echo "hello world" > c.txt
 2. git status
 3. git add a.txt
-   1. git add <filename>...
-   2. git add *
+  * git add <filename>...
+  * git add *
 4. git status
 5. echo "kojk" >> a.txt : 파일 내용 변경 -> tracked modified 상태롤 변경
 6. git status
 7. git add a.txt : staging area로 다시 등록
-8. git rm --cached *
-9. git status
-10. rm a.txt
-11. git status
-12. git add . : 삭제된 파일은 제외하고 starting area 영역으로 등록
-13. echo *.log > .gitignore
-14. git status
-15. echo add >> c.txt
-16. git status
-17. git diff
-18. cat c.txt
-19. git diff --staged
-    1.  변경 사항이 많을 경우 : "q"를 입력하면 내용 확인에서 바로 빠져나옴
-20. git diff --cached
-21. git commit
-22. git log
-23. git commit -m "second commit"
-24. git commit -am "third commit" : working directory and starting 모든 파일 commited
-25. git remote add origin https://github.com/mujikea/git_dev.git
-26. git push -u origin master
-27. 
+8. git restore --staged a.txt
+  * git restore a.txt : working directory 수정된 내용을 되될린다.
+9.  git rm --cached *
+10. git status
+11. rm a.txt
+12. git status
+13. git add . : 삭제된 파일은 제외하고 starting area 영역으로 등록
+14. echo *.log > .gitignore
+15. git status
+16. echo add >> c.txt
+17. git status
+18. git diff
+19. cat c.txt
+20. git diff --staged
+  *  변경 사항이 많을 경우 : "q"를 입력하면 내용 확인에서 바로 빠져나옴
+1.  git diff --cached
+2.  git commit
+3.  git log
+4.  git commit -m "second commit"
+5.  git commit -am "third commit" : working directory and starting 모든 파일 commited
+6.  git remote add origin https://github.com/mujikea/git_dev.git
+7.  git push -u origin master
+8.  

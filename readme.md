@@ -81,5 +81,16 @@
   * git checkout -b exp
 29. git checkout master
 30. git merge exp
-31. 
+31. git reset --hard <commit_id>
+32. git cherry-pick <commit_id> : 부분 벙합 commit_id에 해당하는 내용만 벙합
+33. git status 
+34. 중복된 코드가 있을 경우 수정하고
+35. git add <filename>
+36. git cherry-pick --continue
+37. git reset --hard <commit_id>
+38. git rebase exp
+39. 머지가 줄기가 아닌 하나의 라인으로 변경된 사항의 시점을 알 수 있다
+40. 중복된 코드가 있을 경우 사용자 머지
+41. git rebase --continue
+42. 
 

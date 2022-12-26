@@ -77,7 +77,9 @@
 26. git remote add origin https://github.com/mujikea/git_dev.git
 27. git push -u origin master
 28. git checkout master
-  * git checkout -b main
+  * git checkout -b main : branch 생성하고 이동
   * git checkout -b exp
-29.   
+29. git checkout master
+30. git merge exp
+31. 
 

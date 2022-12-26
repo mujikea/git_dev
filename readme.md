@@ -68,11 +68,12 @@
 19. cat c.txt
 20. git diff --staged
   *  변경 사항이 많을 경우 : "q"를 입력하면 내용 확인에서 바로 빠져나옴
-1.  git diff --cached
-2.  git commit
-3.  git log
-4.  git commit -m "second commit"
-5.  git commit -am "third commit" : working directory and starting 모든 파일 commited
-6.  git remote add origin https://github.com/mujikea/git_dev.git
-7.  git push -u origin master
-8.  
+21.  git diff --cached
+22.  git commit
+23.  git log
+  * git log --oneline --all --graph
+24.  git commit -m "second commit"
+25.  git commit -am "third commit" : working directory and starting 모든 파일 commited
+26.  git remote add origin https://github.com/mujikea/git_dev.git
+27.  git push -u origin master
+28.  

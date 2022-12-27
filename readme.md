@@ -92,5 +92,9 @@
 39. 머지가 줄기가 아닌 하나의 라인으로 변경된 사항의 시점을 알 수 있다
 40. 중복된 코드가 있을 경우 사용자 머지
 41. git rebase --continue
-42. 
+42. git branch --list
+43. git branch dev
+44. git checkout dev
+45. git push origin --delete dev
+46. 
 

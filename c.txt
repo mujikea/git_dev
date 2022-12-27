@@ -13,3 +13,4 @@ exp branch add line ver3
 
 remote branch "dev" pull request
 remote branch "dev" add ver1
+local branch "dev" add ver2

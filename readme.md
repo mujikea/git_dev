@@ -73,13 +73,16 @@
 23. git log
   * git log --oneline --all --graph
 24. git commit -m "second commit"
-25. git commit -am "third commit" : working directory and starting 모든 파일 commited
+25. git commit -am "third commit" : working directory and staging 모든 파일 commited
 26. git remote add origin https://github.com/mujikea/git_dev.git
 27. git push -u origin master
 28. git checkout master
   * git checkout -b main : branch 생성하고 이동
+    * git branch main
+    * git switch main
   * git checkout -b exp
 29. git checkout master
+    * git switch master
 30. git merge exp
 31. git reset --hard <commit_id>
 32. git cherry-pick <commit_id> : 부분 벙합 commit_id에 해당하는 내용만 벙합

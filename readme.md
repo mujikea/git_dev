@@ -96,5 +96,7 @@
 43. git branch dev
 44. git checkout dev
 45. git push origin --delete dev
+    * git branch -d dev
+    * git push origin dev
 46. 
 

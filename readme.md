@@ -41,65 +41,65 @@
     * modified
       * staging area로 옮겨갈 수 있다
 ## 실습
-1. 3개 파일 생성
+1. git branch -M main
+2. file creation
   * echo "hello world" > a.txt
   * echo "hello world" > b.txt
   * echo "hello world" > c.txt
-2. git status
-3. git add a.txt
+1. git status
+2. git add a.txt
   * git add <filename>...
   * git add *
-4. git status
-5. echo "kojk" >> a.txt : 파일 내용 변경 -> tracked modified 상태롤 변경
-6. git status
-7. git add a.txt : staging area로 다시 등록
-8. git restore --staged a.txt
+1. git status
+2. echo "kojk" >> a.txt : 파일 내용 변경 -> tracked modified 상태롤 변경
+3. git status
+4. git add a.txt : staging area로 다시 등록
+5. git restore --staged a.txt
   * git restore a.txt : working directory 수정된 내용을 되될린다.
-9.  git rm --cached *
-10. git status
-11. rm a.txt
-12. git status
-13. git add . : 삭제된 파일은 제외하고 starting area 영역으로 등록
-14. echo *.log > .gitignore
-15. git status
-16. echo add >> c.txt
-17. git status
-18. git diff
-19. cat c.txt
-20. git diff --staged
+1.  git rm --cached *
+2.  git status
+3.  rm a.txt
+4.  git status
+5.  git add . : 삭제된 파일은 제외하고 starting area 영역으로 등록
+6.  echo *.log > .gitignore
+7.  git status
+8.  echo add >> c.txt
+9.  git status
+10. git diff
+11. cat c.txt
+12. git diff --staged
   *  변경 사항이 많을 경우 : "q"를 입력하면 내용 확인에서 바로 빠져나옴
-21. git diff --cached
-22. git commit
-23. git log
+1.  git diff --cached
+2.  git commit
+3.  git log
   * git log --oneline --all --graph
-24. git commit -m "second commit"
-25. git commit -am "third commit" : working directory and staging 모든 파일 commited
-26. git remote add origin https://github.com/mujikea/git_dev.git
-27. git push -u origin master
-28. git checkout master
-  * git checkout -b main : branch 생성하고 이동
-    * git branch main
-    * git switch main
+1.  git commit -m "second commit"
+2.  git commit -am "third commit" : working directory and staging 모든 파일 commited
+3.  git remote add origin https://github.com/mujikea/git_dev.git
+4.  git push -u origin main
+5.  git checkout main
+  * git checkout -b dev : branch 생성하고 이동
+    * git branch dev
+    * git switch dev
   * git checkout -b exp
-29. git checkout master
-    * git switch master
-30. git merge exp
-31. git reset --hard <commit_id>
-32. git cherry-pick <commit_id> : 부분 벙합 commit_id에 해당하는 내용만 벙합
-33. git status 
-34. 중복된 코드가 있을 경우 수정하고
-35. git add <filename>
-36. git cherry-pick --continue
-37. git reset --hard <commit_id>
-38. git rebase exp
-39. 머지가 줄기가 아닌 하나의 라인으로 변경된 사항의 시점을 알 수 있다
-40. 중복된 코드가 있을 경우 사용자 머지
-41. git rebase --continue
-42. git branch --list
-43. git branch dev
-44. git checkout dev
-45. git push origin --delete dev
+1.  git checkout main
+    * git switch main
+2.  git merge exp
+3.  git reset --hard <commit_id>
+4.  git cherry-pick <commit_id> : 부분 벙합 commit_id에 해당하는 내용만 벙합
+5.  git status 
+6.  중복된 코드가 있을 경우 수정하고
+7.  git add <filename>
+8.  git cherry-pick --continue
+9.  git reset --hard <commit_id>
+10. git rebase exp
+11. 머지가 줄기가 아닌 하나의 라인으로 변경된 사항의 시점을 알 수 있다
+12. 중복된 코드가 있을 경우 사용자 머지
+13. git rebase --continue
+14. git branch --list
+15. git branch dev
+16. git checkout dev
+17. git push origin --delete dev
     * git branch -d dev
     * git push origin dev
-46. 
-
+18. 

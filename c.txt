@@ -16,3 +16,4 @@ remote branch "dev" add ver1
 local branch "dev" add ver2
 local branch "main" add line ver1
 ----------------------------------
+local branch "dev" pull request

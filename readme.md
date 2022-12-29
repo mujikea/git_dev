@@ -104,7 +104,7 @@
 17. git push origin --delete dev
     * git branch -d dev
     * git push origin dev
-## git 리모트 변경
+## git remote change 
 1. git pull origin main
 2. git add .
 3. git commit -m "clean push"
@@ -113,4 +113,11 @@
 6. git remote add origin https://github.com/리모트레파지토리
 7. git push -u origin --all
 8. git push -u origin --tags
-9. 
+## git tag 
+1. git tag dev-v1.0.0
+2. git tag -l
+3. git push origin dev-v1.0.0
+4. git tag -d dev-v1.0.0
+5. git tag -l
+6. git push origin :dev-v1.0.0
+7. git pull origin dev-v1.0.0

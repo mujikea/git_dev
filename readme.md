@@ -14,10 +14,12 @@
   * git config user.email
   * git config core.autocrlf
 * git config --h
+* git config --global init.defaultbranch main
 ## git init
 * git init 
   * .git 폴터 생성
 * rm -rf .git
+* git branch --set-upstream-to=origin/main main
 ## git workflow 
 * local area
   * working directory

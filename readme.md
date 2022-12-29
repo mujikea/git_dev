@@ -41,6 +41,7 @@
     * modified
       * staging area로 옮겨갈 수 있다
 ## 실습
+1. main function is called
 1. 3개 파일 생성
   * echo "hello world" > a.txt
   * echo "hello world" > b.txt

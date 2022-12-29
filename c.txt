@@ -16,4 +16,5 @@ remote branch "dev" add ver1
 local branch "dev" add ver2
 local branch "main" add line ver1
 ----------------------------------
-local branch "dev" pull request
+//[긴급] 사용자 권한 체크 오류로 권한 부분 주석처리함
+//local branch "dev" pull request

@@ -17,3 +17,8 @@ local branch "dev" add ver2
 local branch "main" add line ver1
 ----------------------------------
 local branch "dev" pull request
+
+working branch "dev" add line ver1.1
+working branch "dev" add line ver1.1
+working branch "dev" add line ver1.1
+working branch "dev" add line ver1.1

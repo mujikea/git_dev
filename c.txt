@@ -3,7 +3,7 @@ commit_message
 add
 second message from commit
 third message from commit
-remote add
+remote add ---> remote branch "dev" 수정 추가
 main branch add line ver1
 master branch add line ver1
 exp branch add line ver1
@@ -17,3 +17,5 @@ local branch "dev" add ver2
 local branch "main" add line ver1
 ----------------------------------
 local branch "dev" pull request
+
+remote "dev" line add ver1.1

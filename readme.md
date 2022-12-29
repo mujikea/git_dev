@@ -102,4 +102,13 @@
 17. git push origin --delete dev
     * git branch -d dev
     * git push origin dev
-18. 
+## git 리모트 변경
+1. git pull origin main
+2. git add .
+3. git commit -m "clean push"
+4. git push oring main
+5. git remote remove origin
+6. git remote add origin https://github.com/리모트레파지토리
+7. git push -u origin --all
+8. git push -u origin --tags
+9. 

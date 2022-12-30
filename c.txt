@@ -25,5 +25,4 @@ working branch "dev" add line ver1.1
 remote "dev" line add ver1.1
 ----------------------------------
 clone branch "dev" add line ver1.1.1
-clone branch "dev" add line ver1.1.0
- 
+clone branch "dev" add line ver1.1.2

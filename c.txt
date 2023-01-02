@@ -28,3 +28,4 @@ clone branch "dev" add line ver1.1.1
 clone branch "dev" add line ver1.1.2
 branch "dev" line add ver1.1.3
 clone branch "dev" add line ver1.1.4
+brand "dev" diff --staged ver1.0

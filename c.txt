@@ -30,3 +30,4 @@ branch "dev" line add ver1.1.3
 clone branch "dev" add line ver1.1.4
 brand "dev" diff --staged ver1.0
 branch "dev" diff --cached ver1.1
+clone "dev" add line V1
